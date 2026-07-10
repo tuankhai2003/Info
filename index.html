@@ -1,11 +1,9 @@
-```html
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đặng Tuấn Khải - Thông tin liên hệ</title>
-    <!-- Tích hợp Tailwind CSS để tạo kiểu -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -36,24 +34,18 @@
 </head>
 <body class="min-h-screen flex items-center justify-center p-4">
 
-    <!-- Khung chính của trang -->
     <div class="bg-white w-full max-w-md rounded-3xl shadow-xl overflow-hidden animate-fade-in-up">
         
-        <!-- Phần Banner (Ảnh bìa) -->
         <div class="h-32 bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 w-full relative">
-            <!-- Bạn có thể thay bằng ảnh bìa thật nếu muốn -->
         </div>
 
-        <!-- Phần Thông tin cơ bản -->
         <div class="relative px-6 pb-8">
-            <!-- Ảnh đại diện (Avatar) -->
             <div class="flex justify-center -mt-16 mb-4 relative">
                 <img src="https://i.ibb.co/hR7GQg39/IMG20260705154149.avif" 
                      alt="Đặng Tuấn Khải" 
                      class="w-32 h-32 object-cover rounded-full border-4 border-white shadow-lg bg-white">
             </div>
 
-            <!-- Tên và Chức danh -->
             <div class="text-center mb-5">
                 <h1 class="text-2xl font-extrabold text-gray-800 mb-1">Đặng Tuấn Khải</h1>
                 <p class="text-sm font-semibold text-blue-600 mb-3">Kỹ sư Nông nghiệp | Kỹ thuật - Marketing</p>
@@ -62,20 +54,18 @@
                 </p>
             </div>
 
-            <!-- Cụm nút Số điện thoại -->
-            <div class="flex flex-row justify-center gap-3 mb-6 w-full">
-                <a href="tel:0865074003" class="phone-btn flex-1 bg-green-50 hover:bg-green-100 text-green-700 transition-colors py-2.5 px-2 rounded-2xl text-sm font-bold flex justify-center items-center border border-green-200 shadow-sm">
+            <!-- Cụm nút Số điện thoại đã được tinh chỉnh Responsive -->
+            <div class="flex flex-col sm:flex-row justify-center gap-3 mb-6 w-full">
+                <a href="tel:0865074003" class="phone-btn flex-1 bg-green-50 hover:bg-green-100 text-green-700 transition-colors py-3 px-4 rounded-2xl text-sm font-bold flex justify-center items-center border border-green-200 shadow-sm">
                     <i class="fa-solid fa-phone mr-2 text-green-600"></i> 0865.074.003
                 </a>
-                <a href="tel:0898527742" class="phone-btn flex-1 bg-green-50 hover:bg-green-100 text-green-700 transition-colors py-2.5 px-2 rounded-2xl text-sm font-bold flex justify-center items-center border border-green-200 shadow-sm">
+                <a href="tel:0898527742" class="phone-btn flex-1 bg-green-50 hover:bg-green-100 text-green-700 transition-colors py-3 px-4 rounded-2xl text-sm font-bold flex justify-center items-center border border-green-200 shadow-sm">
                     <i class="fa-solid fa-phone mr-2 text-green-600"></i> 0898.527.742
                 </a>
             </div>
 
-            <!-- Danh sách các liên kết mạng xã hội -->
             <div class="space-y-4">
                 
-                <!-- Nút Facebook -->
                 <a href="https://www.facebook.com/dtk.id.vn" target="_blank" rel="noopener noreferrer" 
                    class="social-btn flex items-center p-4 rounded-2xl bg-blue-50 text-blue-600 border border-blue-100 group">
                     <div class="flex-shrink-0 w-11 h-11 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl shadow-md">
@@ -90,7 +80,6 @@
                     </div>
                 </a>
 
-                <!-- Nút Zalo -->
                 <a href="https://zalo.me/0898527742" target="_blank" rel="noopener noreferrer" 
                    class="social-btn flex items-center p-4 rounded-2xl bg-sky-50 text-sky-600 border border-sky-100 group">
                     <div class="flex-shrink-0 w-11 h-11 flex items-center justify-center drop-shadow-md transition-transform group-hover:scale-105">
@@ -105,7 +94,6 @@
                     </div>
                 </a>
 
-                <!-- Nút Tiktok -->
                 <a href="https://vt.tiktok.com/ZSXJe3tcX/" target="_blank" rel="noopener noreferrer" 
                    class="social-btn flex items-center p-4 rounded-2xl bg-gray-50 text-black border border-gray-200 group">
                     <div class="flex-shrink-0 w-11 h-11 rounded-full bg-black text-white flex items-center justify-center text-xl shadow-md">
@@ -122,7 +110,6 @@
 
             </div>
             
-            <!-- Footer -->
             <div class="mt-8 text-center text-xs text-gray-400 font-medium">
                 <p>&copy; 2026. Đặng Tuấn Khải.</p>
             </div>
@@ -130,6 +117,3 @@
     </div>
 </body>
 </html>
-
-
-```
